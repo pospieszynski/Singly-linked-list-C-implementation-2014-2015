@@ -1,0 +1,4 @@
+all: determinant2.c
+	- gcc -g -Wall -pedantic -Werror -std=c99 determinant2.c -o det -lm
+clean:
+	-rm det
